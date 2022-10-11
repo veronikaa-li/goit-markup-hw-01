@@ -2,7 +2,11 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
+
 .logo {
   font-family: 'Raleway';
   text-decoration: none;
@@ -26,6 +30,10 @@ body {
 .btn:focus {
   background-color: #2196f3;
   color: var(--secondary-text-color);
+}
+
+.btn:active {
+  color: var(--acent-color);
 }
 
 .visually-hidden {
@@ -74,14 +82,14 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: var(--accent-color);
+  color: var(--title-text-color);
 }
 
 .header-tel-link {
   font-family: inherit;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 24px;
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
@@ -102,6 +110,7 @@ body {
 }
 
 .main-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -109,8 +118,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--secondary-text-color);
-  background: #2196f3;
+  cursor: pointer;
 }
 
 .about-title {
@@ -147,6 +155,10 @@ body {
 .picture-name {
   text-decoration: none;
   list-style: none;
+}
+
+.team {
+  background-color: #f5f4fa;
 }
 
 .about-team {
@@ -194,11 +206,12 @@ body {
 }
 
 .footer-mail-link {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: var(--title-text-color);
 }
 .footer-adress-link {
   font-weight: 400;
@@ -215,6 +228,7 @@ body {
   list-style: none;
 }
 .secondary-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
@@ -222,6 +236,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background: #f5f4fa;
+  cursor: pointer;
 }
 
 .work {
